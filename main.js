@@ -4,6 +4,8 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+let heartGlyph = document.querySelector(".like-glyph")
+heartGlyph.addEventListener("click", mimicServerCall)
 
 
 
